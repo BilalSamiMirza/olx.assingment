@@ -1,0 +1,276 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    flex: content;
+    
+
+
+
+}
+.box{
+    background-color: rgb(247, 248, 248);
+    width: 100%;
+    height: 150px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+    
+}
+.pic {
+    margin-left: 90px;
+    margin-top: -15px;
+}
+.icon a{
+    color: black;
+    text-decoration: none;
+    left: 50px;
+
+
+}
+.icon{
+    margin-left: 40px;
+}
+.one{
+    border-radius: 50%;
+    background:rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%,rgb(232, 231, 231)100%);
+    display:inline;
+    padding: 11px;
+
+   
+    
+    
+}
+.two{
+    border-radius: 50%;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(232, 231, 231)100%);
+    display: inline;
+    padding: 10px;
+}
+.haa{
+    margin-left: -370px;
+    margin-top: 55px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.olx{
+    margin-top: 30px;
+}
+form{
+    position: relative;
+
+}
+
+form{
+margin-left: 20px;
+margin-top: 5px;   
+}
+input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    height: 40px;
+    width: 250px;
+}
+input:focus{
+    outline:none;
+    border-style: solid;
+    border-color:cyan ;
+}
+button{
+    display: block;
+    position: absolute;
+    border: none;
+    top: 15px;
+    left: 5px;
+    background:none;
+}
+.more{
+    width:570px ;
+}
+.uniicon{
+    width: 990px;
+    
+}
+
+.lnk{
+    display:flex;
+    text-decoration: solid;
+    color: black;
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+}
+.nnn {
+
+    text-decoration: solid;
+    color: black;
+    margin-left: 30px;
+    margin-top: 6px;
+    font-size: 15px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color:cyan blue  yellow yellow ;
+    padding: 10px 30px ;
+border-width:thick;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.sell{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration:solid;
+    color: black;
+    margin-left: 30px;
+}
+.boxx{
+    display:inline-flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    height: auto;
+
+
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+.boxx a{
+    display:inline-flex;
+    text-decoration: none;
+    color:black;
+    padding: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 64px;
+    margin-top: 20px;
+    
+    
+    
+}
+.ab{
+    display: flex;
+    flex-direction: column;
+    padding: -5px;
+    margin-left:100px;
+}
+.ac{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: left;
+    align-items: self-start;
+    margin-top: -70px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    /* margin-left: 10px; */
+    display: inline-flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px;
+    margin-left: 100px;
+    margin-top: -120px;
+}
+.kww{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    padding: 10px;
+    
+
+}
+.ac a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    text-align: center; 
+}
+.ac p{
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    width: 100px;
+
+ } 
+.de{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+.de h1{
+    margin-top: 14px;
+
+}
+.de a{
+    
+    text-decoration: none;
+    color:rgb(58, 119, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 27px;
+    margin-left: 1100px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content :center;
+    /* align-items: center; */
+    /* gap: 1px; */
+}
+.child{
+    width: 300px;
+    height: 360px;
+    margin: 33px;
+    /* padding: 15px; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    box-shadow: 8px 9px 27px 6px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 8px 9px 27px 6px rgba(0,0,0,0.76);
+    -moz-box-shadow: 8px 9px 27px 6px rgba(0,0,0,0.76);
+    overflow: hidden;
+    line-height: 40px;
+       
+    
+}
+.price{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.heart{
+    display: inline;
+    text-align: right;
+    margin-left: 170px; 
+
+}
+
+.description{
+    display:flex;
+    text-align: left;
+   
+    justify-content: left;
+}
+.child p{
+    margin: 10px;
+}
+.ad{
+    display: flex;
+    flex-wrap: wrap;
+}
